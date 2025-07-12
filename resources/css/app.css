@@ -1,0 +1,114 @@
+/* Form box styling */
+.form-box {
+  max-width: 400px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  padding: 2rem;
+}
+.form-box h2 {
+  margin-top: 0;
+  color: #1e90ff;
+  font-size: 1.5rem;
+}
+.form-box label {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #1565c0;
+  font-weight: 500;
+}
+.form-box input[type="text"],
+.form-box input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.form-box button {
+  background: #1e90ff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.form-box button:hover {
+  background: #1565c0;
+}
+.alert {
+  background: #ffebee;
+  color: #c62828;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #1e90ff;
+  color: #fff;
+  padding: 1rem 0.5rem;
+  margin-bottom: 2rem;
+}
+header nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+header nav a:hover {
+  background: #1565c0;
+}
+.produk-list {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  padding: 2rem;
+}
+.produk-list h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #1e90ff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+table th,
+table td {
+  border: 1px solid #e0e0e0;
+  padding: 0.75rem;
+  text-align: left;
+}
+table th {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+table tr:nth-child(even) {
+  background: #f1f8ff;
+}
+table img {
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
